@@ -351,7 +351,8 @@
                 MyLifeQR es un <strong>sistema de identificación médica</strong> de apoyo. No es un servicio médico, de emergencia ni sustituye la atención profesional.<br><br>
                 La información médica contenida en este perfil es <strong>proporcionada voluntariamente por el usuario</strong> y puede no estar actualizada, ser incompleta o inexacta. En caso de emergencia, la prioridad siempre debe ser llamar al 911 y seguir las indicaciones del personal médico.<br><br>
                 Al utilizar este sistema, el usuario acepta que es su <strong>única responsabilidad</strong> mantener sus datos actualizados y verificar su exactitud. En caso de emergencia, siempre prevalece el criterio del personal médico capacitado.<br><br>
-                <strong>📞 En caso de emergencia, llame inmediatamente al 911.</strong>
+                <strong>📞 En caso de emergencia, llame inmediatamente al 911.</strong><br><br>
+                <strong>✉️ Contacto: mylifeqrsticker@gmail.com</strong>
             </p>
         </div>
         <div style="margin-top: 20px;">
@@ -393,7 +394,7 @@
     let currentUserLocation = null;
     let currentPerfilData = null;
     
-    // CONFIGURACIÓN DE EMAILJS
+    // CONFIGURACIÓN DE EMAILJS (actualizado con mylifeqrsticker@gmail.com)
     const EMAILJS_CONFIG = {
         PUBLIC_KEY: "6uXAgtCdN40jsNSgd",
         SERVICE_ID: "service_76kehki",
@@ -402,7 +403,7 @@
     
     // Inicializar EmailJS
     emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
-    console.log("✅ EmailJS inicializado correctamente");
+    console.log("✅ EmailJS inicializado correctamente con mylifeqrsticker@gmail.com");
     
     window.toggleAccordion = () => {
         const header = document.querySelector('.accordion-header');
@@ -630,6 +631,8 @@
             <p>Eres el único responsable de la veracidad y actualización de tus datos.</p>
             <h4>4. Ley Aplicable</h4>
             <p>Estos términos se rigen por las leyes de los Estados Unidos Mexicanos.</p>
+            <h4>5. Contacto</h4>
+            <p>✉️ mylifeqrsticker@gmail.com</p>
         `;
         modal.style.display = 'flex';
     };
@@ -648,6 +651,8 @@
             <p>Tus datos están protegidos por la LFPDPPP. El acceso queda registrado.</p>
             <h4>4. Derechos ARCO</h4>
             <p>Tienes derecho a Acceder, Rectificar, Cancelar u Oponerte al uso de tus datos.</p>
+            <h4>5. Contacto</h4>
+            <p>✉️ mylifeqrsticker@gmail.com</p>
         `;
         modal.style.display = 'flex';
     };
